@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test Signature Pad</title>
+    <style>
+        /* Stylowanie iframe, aby zajmowało całą dostępną przestrzeń */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        iframe {
+            width: 100%;
+            height: 100vh; /* Sprawia, że iframe zajmuje 100% wysokości widoku */
+            border: none; /* Usunięcie ramki */
+        }
+    </style>
 </head>
 <body>
     <h1>Test Signature Pad</h1>
-    <iframe src="STPadServer.html" width="100%" height="100%" style="border:none;"></iframe>
+    <iframe src="STPadServer.html"></iframe>
 </body>
 </html>
